@@ -10,7 +10,8 @@ namespace Laboratorio04
     {
         public string Sumar(string num1, string num2) 
         {
-            return "";
+            string result = (int.Parse(num1) + int.Parse(num2)).ToString();
+            return result;
         }
     }
 }
