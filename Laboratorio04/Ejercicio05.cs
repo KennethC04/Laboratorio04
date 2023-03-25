@@ -24,6 +24,7 @@ namespace Laboratorio04
                 cantidad -= denominacion * billetesNecesarios;
             }
             return resultado;
+
         }
     }
 }
