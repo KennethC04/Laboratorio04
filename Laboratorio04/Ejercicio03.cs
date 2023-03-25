@@ -31,6 +31,7 @@ namespace Laboratorio04
             char[] charArray = result.ToString().ToCharArray();
             Array.Reverse(charArray);
             return new string(charArray);
+
         }
 
     }
