@@ -19,6 +19,7 @@ namespace Laboratorio04
   
             double promedio = suma / nums.Length;   
             return new double[] {suma, promedio};
+
         }
     }
 }
